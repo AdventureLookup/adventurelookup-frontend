@@ -1,5 +1,6 @@
 import 'core-js/fn/object/assign';
 import 'babel-polyfill';
+import 'whatwg-fetch';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, useRouterHistory } from 'react-router';
