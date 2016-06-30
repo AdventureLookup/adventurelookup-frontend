@@ -4,7 +4,7 @@
   "version": "0.0.2",
   "description": "An implementation of Adventure Lookup's frontend using React and Material-UI",
   "main": "",
-  "bugs": "https://github.com/templetonpr/adventurelookup-frontend/issues",
+  "bugs": "https://github.com/AdventureLookup/adventurelookup-frontend/issues",
   "scripts": {
     "clean": "rimraf dist/*",
     "copy": "copyfiles -u 1 ./src/index.html ./src/favicon.ico ./src/tags.json ./src/images/**/* ./dist",
@@ -20,12 +20,16 @@
     "test": "karma start",
     "test:watch": "karma start --autoWatch=true --singleRun=false"
   },
-  "repository": "https://github.com/templetonpr/adventurelookup-frontend",
+  "repository": "https://github.com/AdventureLookup/adventurelookup-frontend",
   "keywords": [],
   "contributors": [
     {
       "name": "Patrick Templeton",
       "url": "https://github.com/templetonpr"
+    },
+    {
+      "name": "Andrew Brehaut",
+      "url" :"https://brehaut.net"
     }
   ],
   "devDependencies": {
